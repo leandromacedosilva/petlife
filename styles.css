@@ -200,4 +200,19 @@ body {
     display: flex;
     flex-direction: column;
   }
+
+  .absolute {
+    position: absolute;
+    top: 460px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  #inicio h1 {
+    margin-top: 80px;
+  }
 }
